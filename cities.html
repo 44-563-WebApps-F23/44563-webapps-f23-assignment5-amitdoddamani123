@@ -14,7 +14,25 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="cities.html">A Few Cities</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#citiesNavBar" Courier New-controls="navbarSupportedContent" Courier New-expanded="true" Courier New-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="citiesNavBar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-link">
+          <a class="nav-link active" Courier New-current="page" href="basic.html">Basic HTML</a>
+        </li>
+        <li class="nav-link">
+          <a class="nav-link active" Courier New-current="page" href="advanced.html">Advanced HTML</a>
+        </li>
+    </div>
+</nav>
+
+<br>
+
     <div class="container">
         <div class="row">
             <div class=" col-sm-2">D</div>
@@ -40,14 +58,16 @@
             <div class=" col-md">Indianpolis</div>
         </div>
     </div>
+
     <br>
+
     <p>Cities line will broken as we have given the command col-md medium size is larger
          when resized the line is getting broken</p>
   
          <div class="containerImages">
-          <img src="delhi.JPG" alt="Delhi" class="img-fluid" width="250px" height="250px" style="margin:70px"/>
-          <img src="oslo.JPG" alt="Oslo" class="img-fluid" width="250px" height="250px" style="margin:70px">
-          <img src="NewYork.JPG" alt="New York" class="img-fluid" width="250px" height="250px" style="margin:70px">
+          <img src="delhi.JPG" alt="Delhi" class="img-fluid" width="400px" height="400px"/>
+          <img src="oslo.JPG" alt="Oslo" class="img-fluid" width="400px" height="400px"/>
+          <img src="NewYork.JPG" alt="New York" class="img-fluid" width="400px" height="400px"/>
         </div>
         <br>
         <div class="containerCities">
@@ -55,5 +75,157 @@
           <img src="oslo.JPG" alt="Oslo" class="img-thumbnail" height="200px" width="200px">
           <img src="NewYork.JPG" alt="New York" class="img-thumbnail" height="200px" width="200px">
         </div>
+
+        <br>
+
+  <div class="container">
+    <table  class="table table-dark table-success">
+        <caption>Table about Cities</caption>
+        <thead class="thead-dark">
+            <tr class="table-primary p-6 mb-3">
+                <th scope="col">Letter</th>
+                <th scope="col">City</th>
+                <th scope="col">River</th>
+                <th scope="col">Tree</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-success p-3 mb-2 bg-success  table-white text-hover">
+                <td class="p-3 mb-2 bg-success text-white">D</td>
+                <td class="font-weight-bold text-primary" >DELHI</td>
+                <td>Delhi River</td>
+                <td>Delhi Tree</td>
+            </tr>
+            <tr class="table-success p-3 mb-2 bg-success text-white  table-warning p-3 mb-2 bg-warning text-dark table-primaryp-3 mb-2 bg-primary text-white">
+                <td class="p-3 mb-2 bg-success text-white">O</td>
+                <td class="font-weight-bold text-primary p-3 mb-2 bg-warning text-primary" >OSLO</td>
+                <td class="p-3 mb-2 bg-warning text-dark">Oslo River</td>
+                <td class="p-3 mb-2 bg-primary text-white">Oslo tree</td>
+            </tr>
+            <tr class="table-success p-3 mb-2 bg-success text-white">
+                <td class="p-3 mb-2 bg-success text-white">D</td>
+                <td class="font-weight-bold text-primary" >DENMARK</td>
+                <td>Denmark River</td>
+                <td>Denmark tree</td>
+            </tr>
+            <tr class="table-success p-3 mb-2 bg-success text-white table-warning p-3 mb-2 bg-warning text-dark table-primaryp-3 mb-2 bg-primary text-white">
+                <td class="p-3 mb-2 bg-success text-white ">D</td>
+                <td class="font-weight-bold text-primary p-3 mb-2 bg-warning text-primary" >DALLAS</td>
+                <td class="p-3 mb-2 bg-warning text-dark">Dallas River</td>
+                <td class="p-3 mb-2 bg-primary text-white">Dallas Tree</td>
+            </tr>
+            <tr class="table-success p-3 mb-2 bg-success text-white ">
+                <td class="p-3 mb-2 bg-success text-white">A</td>
+                <td class="font-weight-bold text-primary" >ATLANA</td>
+                <td class="">Atlanta river</td>
+                <td class="">Atlanta tree</td>
+            </tr>
+            <tr Class="table-success p-6 mb-1 bg-success text-white  table-warning p-3 mb-2 bg-warning text-dark table-primaryp-3 mb-2 bg-primary text-white ">
+                <td class="p-6 mb-1 bg-success text-white">M</td>
+                <td class="font-weight-bold text-primary p-3 mb-2 bg-warning text-primary">MARYVILLE</td>
+                <td class="p-3 mb-2 bg-warning text-dark">Maryville River</td>
+                <td class="p-3 mb-2 bg-primary text-white">Maryville tree</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<br>
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navigation Bar</a>
+</nav>
+
+<div class="btn-toolbar" role="toolbar" Courier New="Toolbar">
+  <div class="btn-group" role="group" Courier New="Group1">
+    <button type="button" class="btn btn-success">D</button>
+    <button type="button" class="btn btn-success">N</button>
+    <button type="button" class="btn btn-success">O</button>
+  </div>
+  <div class="btn-group" role="group" Courier New="Group2">
+    <button type="button" class="btn btn-warning">D</button>
+    <button type="button" class="btn btn-warning">D</button>
+  </div>
+  <div class="btn-group" role="group" Courier New="Group3">
+    <button type="button" class="btn btn-danger">A</button>
+    <button type="button" class="btn btn-danger">M</button>
+    <button type="button" class="btn btn-danger">A</button>
+    <button type="button" class="btn btn-danger">I</button>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Dropdown</a>
+</nav>
+    <div class="dropdownMenu" Courier New="Button group with html">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" Courier New-expanded="true">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item"><a href="basic.html">Basic html</a></li>
+          <li><a class="dropdown-item"><a href="advanced.html">Advanced html</a></li>
+        </ul>
+      </div>
+    </div>
+
+<br>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" Courier New-describedby="emailHelp" placeholder="Enter your city">
+  </div>
+  <div class="form-group">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control" id="city" placeholder="Enter your city">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="newsletter">
+    <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+  </div>
+    <button type="submit" class="btn btn-secondary">Submit</button>
+</form>
+  
+  </ul>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+<div class="col 4">
+<div class="card" style="width: 10sm;">
+  <img src="delhi.JPG" class="card-img-top" alt="Delhi">
+  <div class="card-body">
+    <h5 class="card-title">About Delhi City</h5>
+    <p class="card-text">New Delhi is the capital of India and a part of the National Capital Territory of Delhi. New Delhi is the seat of all three branches of the Government of India, hosting the Rashtrapati Bhavan, Sansad Bhavan, and the Supreme Court. To know more, please click below.</p>
+    <a href="https://www.delhitourism.gov.in/" class="btn btn-danger">Delhi city website</a>
+  </div>
+</div>
+</div>
+<div class="col 4">
+<div class="card" style="width: 10sm;">
+  <img src="oslo.JPG" class="card-img-top" alt="Oslo">
+  <div class="card-body">
+    <h5 class="card-title">About Oslo City</h5>
+    <p class="card-text">Oslo is the economic and governmental centre of Norway. The city is also a hub of Norwegian trade, banking, industry and shipping. To know more, please click below.</p>
+    <a href="https://www.visitoslo.com/city-centre/" class="btn btn-danger">Oslo city webiste</a>
+  </div>
+</div>
+</div>
+<div class="col 4">
+<div class="card" style="width: 10sm;">
+  <img src="NewYork.JPG" class="card-img-top" alt="New York">
+  <div class="card-body">
+    <h5 class="card-title">About New York City</h5>
+    <p class="card-text">New York City is a global city and a cultural, financial, high-tech, entertainment, glamour, and media center with a significant influence on commerce, health care and scientific output in life sciences, research, technology, education, politics, tourism, dining, art, fashion, and sports.. To know more, please click below.</p>
+    <a href="https://www.nyc.gov/" class="btn btn-danger">New York City website</a>
+  </div>
+</div>
+</div>
+</div>
 </body>
 </html>
